@@ -1,0 +1,17 @@
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Learning angular</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  </head>
+  <body>
+
+    <div ng-app="" ng-init="firstName='Eliah'">  <!-- defines that the owner of this app is this div-->
+      <p>
+          Name: <input type="text" ng-model="name">  <!--Binds the value of this input field to the varible name-->
+      </p>
+      <h1>Hello {{name}} {{firstName}} you are {{50 + 50}} years old</h1> <!-- This is know as property binding-->
+    </div>
+  </body>
+</html>
